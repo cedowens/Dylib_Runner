@@ -2,6 +2,8 @@
 
 Simple swift file that can run an on-disk dylib. 
 
+Leveraged code samples at https://stackoverflow.com/questions/34669958/swift-how-to-call-a-c-function-loaded-from-a-dylib.
+
 Steps:
 1. In RunDylib.swift edit the `myhandle` variable to include the path to the dylib you want to run.
 2. In RunDylib.swift edit the `x` variable to include the name of the function you want to invoke
