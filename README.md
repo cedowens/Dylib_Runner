@@ -9,6 +9,7 @@ Steps:
 2. In RunDylib.swift edit the `x` variable to include the name of the function you want to invoke
 3. **Note: I have a sleep(3) entry in the RunDylib.swift file that I added to ensure the program had enough time to complete before closing out...feel free to edit that as needed (or remove altogether if preferred)**
 4. Save and build with: `swiftc -o [binary_name] RunDylib.swift`
-5. Run: `./[binary_name]`
+5. For one time execution: `./[binary_name]`
+6. For running a .dylib payload detached from your current Terminal session: `nohup ./[binary_name] &`
 
 ![Image](dylib.png)
